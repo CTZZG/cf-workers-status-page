@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: serv00-x
+    name: The Serv00 Xray
+    url: 'https://monkii.serv00.net/info'
+    method: GET
+    expectStatus: 200
